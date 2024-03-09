@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Biblioteca Virtual</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <div class="header">
+        <a href="https://www.cbslp.edu.mx/" aria-label="Ir al sitio web de CBSLP">
+            <img src="logo/logo.png" alt="Logo de la Biblioteca Virtual" class="logo">
+        </a>
+        <h1>Biblioteca Virtual</h1>
+    </div>
+
+    <!-- Filtros -->
+    <div class="filters">
+        <!-- Filtro por categoría -->
+        <label for="category" aria-label="Selecciona una categoría">Categoría:</label>
+        <select id="category" aria-label="Categoría">
+            <option value="economia">Economía</option>
+            <option value="novela">Novela</option>
+            <option value="ensayo">Ensayo</option>
+            <option value="ciencia">Ciencia</option>
+            <option value="matematicas">Matemáticas</option>
+            <option value="fisica">Física</option>
+            <option value="historia">Historia</option>
+            <option value="literatura">Literatura</option>
+            <option value="filosofia">Filosofía</option>
+            <option value="arte">Arte</option>
+            <option value="tecnologia">Tecnología</option>
+            <option value="idiomas">Idiomas</option>
+            <option value="psicologia">Psicología</option>
+            <!-- Agrega más categorías según tus necesidades -->
+        </select>
+        
+        <!-- Filtro por búsqueda -->
+        <label for="search" aria-label="Buscar libros">Buscar:</label>
+        <input type="text" id="search" aria-label="Buscar libros por título o categoría">
+    </div>
+
+    <!-- Contenedor de libros -->
+    <div class="container"></div>
+  
+    <footer>
+        <p>&copy; 2024 Yahzi Emiliano Martínez García. Todos los derechos reservados. | 
+            <a href="https://twitter.com/yahziemiliano1" target="_blank">Twitter</a> | 
+            <a href="https://www.facebook.com/emilianoyahzi.garsiamartines" target="_blank">Facebook</a> | 
+            Correo: Yahziga@hotmail.com</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
