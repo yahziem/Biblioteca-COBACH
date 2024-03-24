@@ -1,9 +1,61 @@
 const libros = [
-    { nombre: 'Introducción a la Economía', categoria:'economia', pdf:'https://cbslp01.000webhostapp.com/Titulos/Econom%C3%ADa/Introduccion%20a%20la%20Economia.pdf', imagen: 'https://cbslp01.000webhostapp.com/portadas/3.jpg' },
-    { nombre: 'Introduccion a La Literatura', categoria: 'literatura', pdf: 'https://cbslp01.000webhostapp.com/Titulos/Literatura/Introduccion%20a%20La%20Literatura.pdf', imagen: 'https://cbslp01.000webhostapp.com/portadas/1.jpg' },
-    { nombre: 'Introduccion a la informatica', categoria: 'tecnologia', pdf: 'https://cbslp01.000webhostapp.com/Titulos/Tecnolog%C3%ADa/introduccion%20a%20la%20informatica.pdf', imagen: 'https://cbslp01.000webhostapp.com/portadas/2.jpg' },
-    { nombre: 'Informática Básica', categoria: 'tecnologia', pdf: 'https://cbslp01.000webhostapp.com/Titulos/Tecnolog%C3%ADa/Inform%C3%A1tica%20B%C3%A1sica.pdf', imagen: 'https://cbslp01.000webhostapp.com/portadas/4.jpg' },
-    { nombre: 'psicologia', categoria: 'psicologia', pdf: 'https://cbslp01.000webhostapp.com/Titulos/Psicolog%C3%ADa/psicologia.pdf', imagen: 'https://cbslp01.000webhostapp.com/portadas/5.jpg' },
+    { 
+     nombre: 'Introducción a la Economía',
+     categoria:'economia', 
+     pdf:'https://cbslp01.000webhostapp.com/Titulos/Econom%C3%ADa/Introduccion%20a%20la%20Economia.pdf',
+      imagen: 'https://cbslp01.000webhostapp.com/portadas/3.jpg' },
+    { 
+        nombre: 'Introduccion a La Literatura',
+     categoria: 'literatura',
+      pdf: 'https://cbslp01.000webhostapp.com/Titulos/Literatura/Introduccion%20a%20La%20Literatura.pdf', 
+      imagen: 'https://cbslp01.000webhostapp.com/portadas/1.jpg' },
+    { 
+    nombre: 'Introduccion a la informatica', 
+     categoria: 'tecnologia', 
+     pdf: 'https://cbslp01.000webhostapp.com/Titulos/Tecnolog%C3%ADa/introduccion%20a%20la%20informatica.pdf', 
+     imagen: 'https://cbslp01.000webhostapp.com/portadas/2.jpg' },
+    { 
+        nombre: 'Informática Básica',
+       categoria: 'tecnologia',
+       pdf: 'https://cbslp01.000webhostapp.com/Titulos/Tecnolog%C3%ADa/Inform%C3%A1tica%20B%C3%A1sica.pdf',
+       imagen: 'https://cbslp01.000webhostapp.com/portadas/4.jpg' },
+    { 
+        nombre: 'psicologia',
+      categoria: 'psicologia',
+      pdf: 'https://cbslp01.000webhostapp.com/Titulos/Psicolog%C3%ADa/psicologia.pdf', 
+      imagen: 'https://cbslp01.000webhostapp.com/portadas/5.jpg' },
+    {
+        nombre: 'Introducción a la Psicología',
+        categoria: 'Psicología',
+        pdf: 'https://cbslp01.000webhostapp.com/Titulos/Psicolog%C3%ADa/psicologia.pdf',
+        imagen: 'https://cbslp01.000webhostapp.com/portadas/6.jpg'
+      },
+      {
+        nombre: 'Cerebro y la Neuroanatomía para Psicólogos',
+        categoria: 'Neurociencia',
+        pdf: 'https://cbslp01.000webhostapp.com/Titulos/Psicolog%C3%ADa/psicologia.pdf',
+        imagen: 'https://cbslp01.000webhostapp.com/portadas/7.jpg'
+      },
+      {
+        nombre: 'Desarrollo Humano',
+        categoria: 'Psicología',
+        pdf: 'https://cbslp01.000webhostapp.com/Titulos/Psicolog%C3%ADa/psicologia.pdf',
+        imagen: 'https://cbslp01.000webhostapp.com/portadas/8.jpg'
+      },
+      {
+        nombre: 'Pensar rápido, pensar despacio',
+        categoria: 'Psicología',
+        pdf: 'https://cbslp01.000webhostapp.com/Titulos/Psicolog%C3%ADa/psicologia.pdf',
+        imagen: 'https://cbslp01.000webhostapp.com/portadas/7.jpg'
+      },
+      {
+        nombre: 'El hombre en busca de sentido',
+        categoria: 'Psicología',
+        pdf: 'https://cbslp01.000webhostapp.com/Titulos/Psicolog%C3%ADa/psicologia.pdf',
+        imagen: 'https://cbslp01.000webhostapp.com/portadas/6.jpg'
+      }
+    
+   
     // ... Agrega más libros según tus necesidades
 ];
 
