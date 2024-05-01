@@ -71,30 +71,6 @@ const libros = [
     pdf: 'https://cbslp01.000webhostapp.com/Titulos/Literatura/Introduccion%20a%20La%20Literatura.pdf',
     imagen: 'https://cbslp01.000webhostapp.com/portadas/1.jpg' 
   },
-  { 
-    nombre: '',
-    categoria: '', 
-    pdf: 'https://cbslp01.000webhostapp.com/Titulos/Econom%C3%ADa/Introduccion%20a%20la%20Economia.pdf',
-    imagen: 'https://cbslp01.000webhostapp.com/portadas/3.jpg' 
-  },
-  { 
-    nombre: '',
-    categoria: '', 
-    pdf: 'https://cbslp01.000webhostapp.com/',
-    imagen: 'https://cbslp01.000webhostapp.com/portadas/.jpg' 
-  },
-  { 
-    nombre: '',
-    categoria: '', 
-    pdf: 'https://cbslp01.000webhostapp.com/',
-    imagen: 'https://cbslp01.000webhostapp.com/portadas/.jpg' 
-  },
-  { 
-    nombre: '',
-    categoria: '', 
-    pdf: 'https://cbslp01.000webhostapp.com/',
-    imagen: 'https://cbslp01.000webhostapp.com/portadas/.jpg' 
-  },
   // Puedes agregar más libros aquí.
 ];
 
