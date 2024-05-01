@@ -31,6 +31,18 @@ body {
     }
 }
 
+.header-content {
+    display: flex; /* Usamos flexbox para alinear el video y los logos */
+    justify-content: center; /* Para centrar el contenido horizontalmente */
+    gap: 1em; /* Espacio entre elementos */
+    align-items: center; /* Alineación vertical */
+}
+
+.header video, .header-img {
+    max-width: 20%; /* Ajusta el ancho para que haya espacio para todos los elementos */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
 .header img {
     max-width: 70%;
     height: auto;
@@ -48,8 +60,8 @@ label {
     display: block;
     margin-bottom: 1em;
     font-weight: bold;
-    font-size: 2em; /* Tamaño de fuente aumentado */
-    color: #f1f1f1; /* Cambio de color a amarillo */
+    font-size: 2em;
+    color: #f1f1f1;
 }
 
 select, input {
@@ -71,11 +83,10 @@ select, input {
     margin: 1em;
     padding: 1.5em;
     background-color: #ffffffb0;
+    border-radius: 5px;
     border: 1px solid rgb(5, 93, 207);
-    border-radius: 5ensayopx;
     box-shadow: 0 2px 4px rgb(255, 255, 255);
     text-align: center;
-    transition: transform 0.3s ease-in-out;
 }
 
 .book:hover {
@@ -93,6 +104,7 @@ select, input {
     cursor: pointer;
     border-radius: 5px;
 }
+
 a {
     color: #f49f1c;
     text-decoration: none;
@@ -101,25 +113,25 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 footer {
-    background-color: #05b3f8; /* Color de fondo gris claro */
-    padding: 1em; /* Espaciado interno */
+    background-color: #05b3f8;
+    padding: 1em;
     text-align: center;
-    color: #555; /* Color del texto gris oscuro */
+    color: #555;
 }
 
 footer p {
-    font-size: 1.2em; /* Tamaño de letra más pequeño */
-    margin: 0.5; /* Elimina el margen superior e inferior del párrafo */
+    font-size: 1.2em;
+    margin: 0;
 }
 
-/* Estilos para los enlaces de redes sociales y contacto */
 footer a {
-    color: #e5ff00; /* Color del enlace azul */
-    text-decoration: none; /* Elimina el subrayado predeterminado */
-    margin: 0.5em; /* Añade un pequeño espacio entre enlaces */
+    color: #e5ff00;
+    text-decoration: none;
+    margin: 0.5em;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Subrayado al pasar el ratón sobre el enlace */
+    text-decoration: underline;
 }
