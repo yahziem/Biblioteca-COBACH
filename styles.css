@@ -1,16 +1,29 @@
+/* Definir variables para colores y tamaños */
+:root {
+    --primary-color: #000000; /* Amarillo suave */
+    --secondary-color: #3498db; /* Azul suave */
+    --highlight-color: #e67e22; /* Naranja */
+    --background-color: #2c3e50; /* Fondo negro azulado */
+    --dark-text: #bbb5b5; /* Gris oscuro */
+    --light-text: #f1f1f1; /* Texto claro */
+    --border-radius: 8px; /* Borde redondeado */
+}
+
+/* Estilos globales */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #000000;
+    background: var(--background-color);
+    color: var(--light-text);
 }
 
+/* Encabezado */
 .header {
-    background-color: #182b55;
-    color: #06e2ffe1;
-    padding: 1em;
-    margin: 1em;
-    border: 1px solid #f49f1c;
+    background-color: var(--primary-color);
+    color: var(--dark-text);
+    padding: 1.5em;
+    border-bottom: 2px solid var(--highlight-color);
     text-align: center;
 }
 
@@ -32,61 +45,63 @@ body {
 }
 
 .header-content {
-    display: flex; /* Usamos flexbox para alinear el video y los logos */
-    justify-content: center; /* Para centrar el contenido horizontalmente */
-    gap: 1em; /* Espacio entre elementos */
-    align-items: center; /* Alineación vertical */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header video, .header-img {
-    max-width: 20%; /* Ajusta el ancho para que haya espacio para todos los elementos */
-    height: auto; /* Mantiene la proporción de aspecto */
+/* Imágenes y video */
+.logo-img, .video-center {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
 }
 
-.header img {
-    max-width: 70%;
-    height: auto;
+.video-center {
+    width: 250px;
+    height: 250px;
 }
 
 .filters {
-    background-color: #182b55;
-    padding: 5em;
+    background-color: var(--primary-color);
+    padding: 2em;
     margin: 2em;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #f49f1c;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 label {
     display: block;
     margin-bottom: 1em;
     font-weight: bold;
-    font-size: 2em;
-    color: #f1f1f1;
+    color: var(--dark-text);
 }
 
 select, input {
     width: 100%;
-    padding: 1.2em;
-    margin-bottom: 3em;
-    border: 5px solid #f49f1c;
-    border-radius: 5px;
+    padding: 1em;
+    margen-bottom: 1.5em;
+    border: 2px sólido var(--highlight-color);
+    border-radius: var(--border-radius);
 }
 
+/* Contenedores y libros */
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .book {
     flex: 1 0 200px;
     margin: 1em;
     padding: 1.5em;
-    background-color: #ffffffb0;
-    border-radius: 5px;
-    border: 1px solid rgb(5, 93, 207);
-    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    border: 1px sólido var(--highlight-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     text-align: center;
+    transición: transform 0.3s ease;
 }
 
 .book:hover {
@@ -94,19 +109,18 @@ select, input {
 }
 
 .book h3 {
-    margin-bottom: 5em;
-    color: #000000;
+    color: var(--light-text);
 }
 
 .book img {
     max-width: 90%;
     height: auto;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
 }
 
 a {
-    color: #f49f1c;
+    color: var(--highlight-color);
     text-decoration: none;
 }
 
@@ -114,22 +128,23 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Pie de página */
 footer {
-    background-color: #05b3f8;
-    padding: 1em;
+    background-color: var(--background-color);
+    padding: 1.5em;
     text-align: center;
-    color: #555;
+    color: var(--light-text);
 }
 
 footer p {
     font-size: 1.2em;
-    margin: 0;
+    margen: 0;
 }
 
 footer a {
-    color: #e5ff00;
+    color: var(--highlight-color);
     text-decoration: none;
-    margin: 0.5em;
+    margen: 0.5em;
 }
 
 footer a:hover {
